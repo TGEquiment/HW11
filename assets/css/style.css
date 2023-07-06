@@ -15,7 +15,7 @@ footer{
 
 .handbag{
     grid-area: handbag;
-    background-image: url("/assets/images/pic-handbag.webp");
+    background-image: url("/assets/images/pic-handbag.jpg");
     background-size:cover;
     width: 100%;
     height: 200px;
@@ -25,7 +25,7 @@ footer{
 
 .shoes{
     grid-area: shoes;
-    background-image: url("/assets/images/pic-shoes.jpg");
+    background-image: url("/assets/images/pic-watch.png");
     background-size:cover;
     width: 100%;
     height: 200px;
@@ -35,7 +35,7 @@ footer{
 
 .watch{
     grid-area: watch;
-    background-image: url("/assets/images/pic-watch.webp");
+    background-image: url("/assets/images/pic-shoes.jpg");
     background-size:cover;
     width: 100%;
     height: 200px;
@@ -59,7 +59,7 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:    "big     big   big"
-                            "handbag shoes watch";
+                            "handbag watch shoes";
 }
 
 .pic1{
